@@ -22,7 +22,7 @@
   }
 //mouvement du renard et sa vitesse
   function peep() {
-    let time = randomTime(400, 1000);
+    let time = randomTime(500, 1800);
     let trou = randomtrou(trous);
     trou.classList.add('up');
     setTimeout(() => {
